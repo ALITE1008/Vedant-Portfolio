@@ -5,27 +5,27 @@ import Navlinks from "./navLinks/navlinks";
 import Image from "next/image";
 import { handleLogout } from "@/lib/action";
 
+const links = [
+  {
+    title: "Home",
+    path: "/",
+  },
+  {
+    title: "About",
+    path: "/about",
+  },
+  {
+    title: "Contact",
+    path: "/contact",
+  },
+  {
+    title: "Projects",
+    path: "/blog",
+  },
+];
+
 const Links = ({ session }) => {
   const [open, setopen] = useState(false);
-
-  const links = [
-    {
-      title: "Home",
-      path: "/",
-    },
-    {
-      title: "About",
-      path: "/about",
-    },
-    {
-      title: "Contact",
-      path: "/contact",
-    },
-    {
-      title: "Projects",
-      path: "/blog",
-    },
-  ];
 
   return (
     <div className={styles.container}>
