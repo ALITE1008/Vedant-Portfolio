@@ -50,7 +50,7 @@ export default function Home() {
             </Link>
           </div>
           <div>
-            <Link href="https://drive.google.com/file/d/1smbb65BR8AQmHpgnSKnASe_LyGgizY-d/view?usp=sharing">
+            <Link href="https://flowcv.com/resume/i713864qvs">
               <Image
                 src="/icons8-resume-64.png"
                 alt=""
