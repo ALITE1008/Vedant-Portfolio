@@ -1,0 +1,25 @@
+.container{
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+  margin-bottom: 5px;
+  border-top: rgb(32, 32, 32) solid 1px;
+}
+
+.logo{
+  font-weight: bold;
+}
+
+.text{
+  font-size: 12px;
+}
+
+@media (max-width:768px){
+  .container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

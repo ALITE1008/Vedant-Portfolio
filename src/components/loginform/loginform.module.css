@@ -1,0 +1,27 @@
+.from{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.from input{
+    padding: 20px;
+    background-color: var(--bg);
+    color: var(--textColor);
+    border: none;
+    border-radius: 7px;
+}
+
+.from button{
+    padding: 19px;
+    background-color: var(--btn);
+    color: var(--textColor);
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+
+}
+
+
+

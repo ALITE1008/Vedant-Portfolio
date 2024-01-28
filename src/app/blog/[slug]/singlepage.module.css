@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    gap: 2rem;
+    z-index: 1;
+}
+
+.imgcon{
+    position: relative;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+}
+
+@media (max-width:728px) {
+    .imgcon{
+        position: relative;
+        width: 90%;
+        height: 300px;
+        margin: auto;
+    }
+}
+
+.textcon{
+    width: 60%;
+}
+
+.title{
+ color: var(--btn);
+ margin-bottom: 2rem;
+}
+
+.des{
+  font-size: large;
+  
+}
+@media (max-width:580px) {
+    .container{
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    .textcon{
+        width: 100%;
+    }
+}

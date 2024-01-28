@@ -1,0 +1,41 @@
+
+.from{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.12rem;
+}
+
+.from input{
+    padding: 20px;
+    background-color: var(--bg);
+    color: var(--textColor);
+    border: none;
+    border-radius: 7px;
+}
+
+.from button{
+    padding: 19px;
+    background-color: var(--btn);
+    color: var(--textColor);
+    font-weight: bold;
+    border: none;
+    border-radius: 16px;
+
+}
+
+.from button:hover{
+    padding: 20px;
+    cursor: pointer;
+    background-color: var(--btn);
+    color: var(--textColor);
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.label{
+    color: rgb(244, 53, 85);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
