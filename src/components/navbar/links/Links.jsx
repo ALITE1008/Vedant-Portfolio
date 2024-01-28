@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import styles from "./links.module.css";
-import Navlinks from "./navLinks/Navlinks";
+import Navlinks from "./navLinks/navlinks";
 import Image from "next/image";
 import { handleLogout } from "@/lib/action";
 
@@ -59,7 +59,7 @@ const Links = ({ session }) => {
           {links.map((link) => {
             return <Navlinks items={link} key={link.title} />;
           })}
-          {/* {session ? (
+          {session ? (
             <>
               {isAdmin && (
                 <Navlinks items={{ title: "Admin", path: "/admin" }} />
@@ -68,7 +68,7 @@ const Links = ({ session }) => {
             </>
           ) : (
             <Navlinks items={{ title: "Login", path: "/login" }} />
-          )} */}
+          )}
         </div>
       )}
     </div>
