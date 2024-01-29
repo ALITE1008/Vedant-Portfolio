@@ -72,7 +72,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.imgcontainer}>
-        <Image src="/hero.gif" alt="" fill className="homeimg"></Image>
+        <Image src="/hero.gif" alt="" fill className={styles.img}></Image>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 .container{
     display: flex;
-    column-gap: 3rem;
-    flex-wrap: wrap;
+    gap: 3rem;
+    flex-wrap: wrap-reverse;
 }
 
 .textcon{
@@ -24,13 +24,14 @@
     font-weight: 300;
 }
 .imgcon{
- flex: 1;
  position: relative;
+ margin: auto;
 }
 
-@media (max-width:788px) {
-    .imgcon{
-        display: none;
+@media (max-width:728px) {
+    .img{
+          height: 300px;
+          width: auto;
     }
 }
 
