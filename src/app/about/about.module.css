@@ -30,7 +30,8 @@
 
 @media (max-width:728px) {
     .img{
-          height: 300px;
+        margin: auto;
+          height: 18%;
           width: auto;
     }
 }

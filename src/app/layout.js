@@ -14,12 +14,12 @@ export const metadata = {
   icons: {
     icon: ['/logo.png?v=4']
   },
-
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      < meta name="google-site-verification" content="9XWC1aIrbF7dlRlLdieevrgUMLCdeyyU7wPbKcDuZ7Q" />
       <body className={inter.className}>
         <div className='maincontainer'>
           <Navbar />
