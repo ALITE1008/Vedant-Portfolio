@@ -10,11 +10,11 @@ export const authConfig = {
             if (user) {
 
                 token.id = user.id;
+
                 if (!token.isAdmin) {
                     token.isAdmin = user.isAdmin;
                 }
             }
-
             return token;
         },
         async session({ session, token }) {

@@ -22,8 +22,7 @@ export const Response = async (prevState, formData) => {
         });
 
         await newResponse.save();
-        console.log('RESP SAVED');
-
+        return { success: "Message Sent Successfully" }
     } catch (error) {
         return { error: "somting went wrong while adding sending message" }
     }

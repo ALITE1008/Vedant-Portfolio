@@ -59,9 +59,9 @@ const Links = ({ session }) => {
           {links.map((link) => {
             return <Navlinks items={link} key={link.title} />;
           })}
-          {session ? (
+          {session?.user ? (
             <>
-              {isAdmin && (
+              {session.user?.isAdmin && (
                 <Navlinks items={{ title: "Admin", path: "/admin" }} />
               )}
               <button className={styles.active}>Logout</button>
