@@ -17,7 +17,6 @@ function Postcard({ post }) {
             className={styles.img}
           />
         </div>
-        <p className={styles.date}>{post.updatedAt.toString().slice(0, 4)}</p>
       </div>
       <div className={styles.bottom}>
         <h1 className={styles.title}>{post.title}</h1>

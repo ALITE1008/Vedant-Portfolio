@@ -7,6 +7,8 @@
 }
 
 .active{
-    background-color: var(--text);
+    background: linear-gradient(to right, #f8005f, #ff00bb,#ff0000, #c20909);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     color: var(--bg);
 }

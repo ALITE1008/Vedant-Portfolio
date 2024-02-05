@@ -1,8 +1,12 @@
 .container{
     display: flex;
     flex-direction: column;
-    column-gap: 2rem;
+    column-gap: 0.5rem;
     margin-bottom: 1rem;
+    border: 1px rgb(255, 104, 190) solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-blend-mode: exclusion;
 }
 
 .top{
@@ -10,34 +14,35 @@
 }
 .imgcon{
     position: relative;
-    width: 90%;
+    width: 100%;
     height: 250px;
 }
 .img{
-    object-fit: contain;
-}
-.date{
-    font-size: small;
-    transform: rotate(270deg);
-    margin: auto;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .title{
+ display: flex;
+ justify-content: center;
+ align-items: center;
   margin-top: 0.7rem;
   font-size: 20px;
-  margin-bottom: 0.2rem;  
-  width: 85px;  
+  margin-bottom: 0.2rem;    
 }
 
 .des{
     margin-bottom: 0.5rem;
     font-weight: 300;
     color: grey;
-    width: 85px;
 }
 
 .link{
-    text-decoration: underline;
     color: var(--btn);
 }
-
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
