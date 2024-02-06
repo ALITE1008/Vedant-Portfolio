@@ -72,7 +72,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <h2 className={styles.headskills}>Skills</h2>
+        <div className={styles.headskills}>
+          <h2>Skills</h2>
+        </div>
         <div className={styles.skills2}>
           <Image
             src="/html.png"

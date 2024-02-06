@@ -103,21 +103,15 @@
     }
     .skills2{
         display: flex;
-        position: absolute;
         flex-wrap: wrap;
         flex-direction: row;
-        flex-shrink: inherit;
         justify-content: center;
         align-items: center;
-        margin-top: 460px;
-        gap: 2rem;
-        margin-right: 40px;
+        margin-top: 70px;
     }
     
     .headskills{
-        bottom: 270px;
-        left: 170px;
-        font-size: 1.9rem;
+       display: none;
     }
     .maincon{
         display: flex;
