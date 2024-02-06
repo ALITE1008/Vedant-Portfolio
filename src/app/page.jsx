@@ -74,17 +74,83 @@ export default function Home() {
         </div>
         <h2 className={styles.headskills}>Skills</h2>
         <div className={styles.skills2}>
-          <Image src="/html.png" alt="" height={50} width={50}></Image>
-          <Image src="/css.png" alt="" height={50} width={50}></Image>
-          <Image src="/js.png" alt="" height={50} width={50}></Image>
-          <Image src="/node-js.png" alt="" height={50} width={50}></Image>
-          <Image src="/express.png" alt="" height={50} width={50}></Image>
-          <Image src="/react.png" alt="" height={50} width={50}></Image>
-          <Image src="/tailwind.png" alt="" height={50} width={50}></Image>
-          <Image src="/logo-sm.png" alt="" height={50} width={50}></Image>
-          <Image src="/mongodb.png" alt="" height={50} width={50}></Image>
-          <Image src="/ts.png" alt="" height={50} width={50}></Image>
-          <Image src="/git.png" alt="" height={50} width={60}></Image>
+          <Image
+            src="/html.png"
+            alt=""
+            height={50}
+            width={50}
+            className={styles.skillicon}
+          ></Image>
+          <Image
+            src="/css.png"
+            alt=""
+            height={50}
+            width={50}
+            className={styles.skillicon}
+          ></Image>
+          <Image
+            src="/js.png"
+            alt=""
+            height={50}
+            width={50}
+            className={styles.skillicon}
+          ></Image>
+          <Image
+            src="/node-js.png"
+            alt=""
+            height={50}
+            width={50}
+            className={styles.skillicon}
+          ></Image>
+          <Image
+            src="/express.png"
+            alt=""
+            height={50}
+            width={50}
+            className={styles.skillicon}
+          ></Image>
+          <Image
+            src="/react.png"
+            alt=""
+            height={50}
+            width={50}
+            className={styles.skillicon}
+          ></Image>
+          <Image
+            src="/tailwind.png"
+            alt=""
+            height={50}
+            width={50}
+            className={styles.skillicon}
+          ></Image>
+          <Image
+            src="/logo-sm.png"
+            alt=""
+            height={50}
+            width={50}
+            className={styles.skillicon}
+          ></Image>
+          <Image
+            src="/mongodb.png"
+            alt=""
+            height={50}
+            width={50}
+            className={styles.skillicon}
+          ></Image>
+          <Image
+            src="/ts.png"
+            alt=""
+            height={50}
+            width={50}
+            className={styles.skillicon}
+          ></Image>
+          <Image
+            src="/git.png"
+            alt=""
+            height={50}
+            width={60}
+            className={styles.skillicon}
+          ></Image>
         </div>
         <div className={styles.imgcontainer}>
           <Image

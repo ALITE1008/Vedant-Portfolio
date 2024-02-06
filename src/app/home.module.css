@@ -94,29 +94,35 @@
         flex-direction: column;
         height: 100vh;
     }
-    .img{
-        display: none;
+    .imgcontainer{  
+        display: block;
+        visibility: hidden;
     }
     .skills{
         display: none;
     }
     .skills2{
-        padding: 5px;
-        padding: 10px;
-        margin-top: 90px;
         display: flex;
+        position: absolute;
         flex-wrap: wrap;
-        width:30vh;
-        gap: 0.5rem;
+        flex-direction: row;
+        flex-shrink: inherit;
         justify-content: center;
         align-items: center;
-        border: #414141 0.5px solid;
-        border-radius: 30px;
-        background-image: url('/mainIconsdark.svg');
-        background-size: contain;
+        margin-top: 460px;
+        gap: 2rem;
+        margin-right: 40px;
     }
+    
     .headskills{
-        display: none ;
+        bottom: 270px;
+        left: 170px;
+        font-size: 1.9rem;
     }
+    .maincon{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 
