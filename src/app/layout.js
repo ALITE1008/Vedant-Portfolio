@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       < meta name="google-site-verification" content="9XWC1aIrbF7dlRlLdieevrgUMLCdeyyU7wPbKcDuZ7Q" />
       <body className={inter.className}>
         <div className='maincontainer'>
-          <div className="area" >
+          <div className="area">
             <ul className="circles">
               <li></li>
               <li></li>

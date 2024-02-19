@@ -52,10 +52,11 @@ a{
     background-color: transparent;
     /* background: -webkit-linear-gradient(to left, #090017, #090017);   */
     width: 88%;
-    height:100%;
+    height:100vh;
     position: absolute;
     z-index: -1;
     margin: auto;
+    overflow: hidden;
    
 }
 

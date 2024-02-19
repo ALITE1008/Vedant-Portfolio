@@ -3,7 +3,7 @@
     flex-direction: column;
     column-gap: 0.5rem;
     margin-bottom: 1rem;
-    border: 1px rgb(255, 104, 190) solid;
+    /* border: 1px rgb(2, 13, 85) solid; */
     padding: 10px;
     border-radius: 10px;
     background-blend-mode: exclusion;
